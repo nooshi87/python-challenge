@@ -55,7 +55,7 @@ with open(csvpath) as csvfile:
     average = netchange/len(list_change) 
     
 # printing outuputs
-output = f"Total Months {count}\n" f"Your net income is ${netincome}\n" f"Average Change: ${round(average,2)}\n" f"Greatest Increase in Profits: {max_mon} ({max_inc})\n" f"Greatest Decrease in Profits: {min_mon} ({max_dec})\n"
+output = f"Total Months {count}\n" f"Your net income is ${netincome}\n" f"Average Change: ${round(average,2)}\n" f"Greatest Increase in Profits: {max_mon} (${max_inc})\n" f"Greatest Decrease in Profits: {min_mon} (${max_dec})\n"
 # printing outuputs
 
 # print(f"Average change: ${average}")
